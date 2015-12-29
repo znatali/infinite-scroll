@@ -1,7 +1,7 @@
 /*
  --------------------------------
  Infinite Scroll Behavior
- Cufon Refresh
+ Custom Cufon
  --------------------------------
  + https://github.com/paulirish/infinitescroll/
  + version 2.0b2.110617
@@ -13,8 +13,8 @@
  */
 (function ($, undefined) {
     $.extend($.infinitescroll.prototype,{
-        _callback_cufon: function infscr_callback_cufon(newElements) {
-            alert('hi!');
-        }
+       	_callback_custom_cufon: function infscr_callback_custom_cufon(newElements) {
+            custom_response();
+	}
     });
 })(jQuery);
